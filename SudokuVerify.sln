@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{4A7A5283-67E3-4FD3-9CEB-40D4B3963F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{11BCE451-982C-47CE-AB4E-3C3ECB8D385A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{560E4D7F-A674-4962-9C42-AAF5DCC4EDDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{4A4E9463-4F16-426D-AF90-6E271A73B27A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{8FADC30D-EB5B-476E-9F2F-C60D384D1545}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Data", "4.1 Data", "{8CDE430C-046A-44CA-B999-7EF41E910618}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuVerify.Infra.Data", "SudokuVerify.Infra.Data\SudokuVerify.Infra.Data.csproj", "{0FD85EAA-BBA2-44FC-9D73-F16CACF572C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuVerify.Domain", "SudokuVerify.Domain\SudokuVerify.Domain.csproj", "{0EEC4307-39CD-4CE0-92FA-EF1D1CC5FA16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuVerify.Application", "SudokuVerify.Application\SudokuVerify.Application.csproj", "{14E7A04F-1728-44B4-A79E-FC3653238827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuVerify", "SudokuVerify\SudokuVerify.csproj", "{5C85950C-9812-4D9D-ABA8-D362D8587670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD85EAA-BBA2-44FC-9D73-F16CACF572C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD85EAA-BBA2-44FC-9D73-F16CACF572C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD85EAA-BBA2-44FC-9D73-F16CACF572C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD85EAA-BBA2-44FC-9D73-F16CACF572C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEC4307-39CD-4CE0-92FA-EF1D1CC5FA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEC4307-39CD-4CE0-92FA-EF1D1CC5FA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEC4307-39CD-4CE0-92FA-EF1D1CC5FA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEC4307-39CD-4CE0-92FA-EF1D1CC5FA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E7A04F-1728-44B4-A79E-FC3653238827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E7A04F-1728-44B4-A79E-FC3653238827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E7A04F-1728-44B4-A79E-FC3653238827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E7A04F-1728-44B4-A79E-FC3653238827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C85950C-9812-4D9D-ABA8-D362D8587670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C85950C-9812-4D9D-ABA8-D362D8587670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C85950C-9812-4D9D-ABA8-D362D8587670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C85950C-9812-4D9D-ABA8-D362D8587670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CDE430C-046A-44CA-B999-7EF41E910618} = {4A4E9463-4F16-426D-AF90-6E271A73B27A}
+		{0FD85EAA-BBA2-44FC-9D73-F16CACF572C7} = {8CDE430C-046A-44CA-B999-7EF41E910618}
+		{0EEC4307-39CD-4CE0-92FA-EF1D1CC5FA16} = {560E4D7F-A674-4962-9C42-AAF5DCC4EDDF}
+		{14E7A04F-1728-44B4-A79E-FC3653238827} = {11BCE451-982C-47CE-AB4E-3C3ECB8D385A}
+		{5C85950C-9812-4D9D-ABA8-D362D8587670} = {4A7A5283-67E3-4FD3-9CEB-40D4B3963F17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6511A9F4-60DC-4383-8EFD-19D6858F06B7}
+	EndGlobalSection
+EndGlobal
