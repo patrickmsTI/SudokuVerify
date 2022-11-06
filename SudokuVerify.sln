@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuVerify.Domain", "Sudo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuVerify.Application", "SudokuVerify.Application\SudokuVerify.Application.csproj", "{14E7A04F-1728-44B4-A79E-FC3653238827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuVerify", "SudokuVerify\SudokuVerify.csproj", "{5C85950C-9812-4D9D-ABA8-D362D8587670}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuVerify", "SudokuVerify\SudokuVerify.csproj", "{5C85950C-9812-4D9D-ABA8-D362D8587670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuVerify.Test", "SudokuVerify.Test\SudokuVerify.Test.csproj", "{4BFB8AF7-2951-4218-BEA6-E4B98477A36A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5C85950C-9812-4D9D-ABA8-D362D8587670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C85950C-9812-4D9D-ABA8-D362D8587670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C85950C-9812-4D9D-ABA8-D362D8587670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFB8AF7-2951-4218-BEA6-E4B98477A36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFB8AF7-2951-4218-BEA6-E4B98477A36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFB8AF7-2951-4218-BEA6-E4B98477A36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFB8AF7-2951-4218-BEA6-E4B98477A36A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{0EEC4307-39CD-4CE0-92FA-EF1D1CC5FA16} = {560E4D7F-A674-4962-9C42-AAF5DCC4EDDF}
 		{14E7A04F-1728-44B4-A79E-FC3653238827} = {11BCE451-982C-47CE-AB4E-3C3ECB8D385A}
 		{5C85950C-9812-4D9D-ABA8-D362D8587670} = {4A7A5283-67E3-4FD3-9CEB-40D4B3963F17}
+		{4BFB8AF7-2951-4218-BEA6-E4B98477A36A} = {8FADC30D-EB5B-476E-9F2F-C60D384D1545}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6511A9F4-60DC-4383-8EFD-19D6858F06B7}

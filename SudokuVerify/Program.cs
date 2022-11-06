@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<ISudokuCheckedRepository, SudokuCheckedRepository>();
 builder.Services.AddScoped<ISudokuCheckedService, SudokuCheckedService>();
+builder.Services.AddScoped<ISudokuCheckedAppService, SudokuCheckedAppService>();
 
 builder.Services.AddDbContext<BaseContext>(options => options.UseInMemoryDatabase(databaseName: "MockDB"));
 builder.Services.AddControllers();

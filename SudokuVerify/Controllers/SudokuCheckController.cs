@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using SudokuVerify.Domain.Interfaces.Services;
-using System.Net;
+﻿using Microsoft.AspNetCore.Mvc;
+using SudokuVerify.Application.Interfaces;
 
 namespace SudokuVerify.Controllers
 {
@@ -9,11 +7,11 @@ namespace SudokuVerify.Controllers
     [ApiController]
     public class SudokuCheckController : ControllerBase
     {
-        private readonly ISudokuCheckedService _sudokuCheckedService;
+        private readonly ISudokuCheckedAppService _sudokuCheckedApp;
 
-        public SudokuCheckController(ISudokuCheckedService sudokuCheckedService)
+        public SudokuCheckController(ISudokuCheckedAppService sudokuCheckedApp)
         {
-            _sudokuCheckedService = sudokuCheckedService;
+            _sudokuCheckedApp = sudokuCheckedApp;
         }
 
         [HttpPost]
@@ -21,7 +19,7 @@ namespace SudokuVerify.Controllers
         {
             try
             {
-                if (_sudokuCheckedService.IsSudokuOk(sudoku, positionRow, positionCol, value))
+                if (_sudokuCheckedApp.IsSudokuOk(sudoku, positionRow, positionCol, value))
                     return Ok();
                 else
                     return StatusCode(403);

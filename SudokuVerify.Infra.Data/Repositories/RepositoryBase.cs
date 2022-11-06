@@ -11,7 +11,7 @@ namespace SudokuVerify.Infra.Data.Repositories
 {
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
-        protected readonly BaseContext db;
+        protected BaseContext db;
         public RepositoryBase(BaseContext db)
         {
             this.db = db;
