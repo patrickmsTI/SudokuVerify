@@ -11,7 +11,9 @@ API to verify if Sudoku is valid or not a Sudoku.
 # For your convenience, the swagger application will be open for testing the api
 ```
 
-#Example
+
+### Example
+``` bash
 The API will receive a array of string with 9 positions with 9 numbers, the row position, colum position, and the value to validate.
 
   Board Example
@@ -37,3 +39,4 @@ because in this row there is already a column with the value '2'
 
 If verify this array on on row position 2 an column position 4 the value '8', the return will be Ok, because 
 there is no other '8' in the same row, in the same column or inside the box
+```
