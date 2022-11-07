@@ -37,6 +37,6 @@ Will be represented by the array
 If verify this array on row position 3 and column position 3 the value '2', the return will be Forbidden, 
 because in this row there is already a column with the value '2'
 
-If verify this array on on row position 2 an column position 4 the value '8', the return will be Ok, because 
+If verify this array on row position 2 an column position 4 the value '8', the return will be Ok, because 
 there is no other '8' in the same row, in the same column or inside the box
 ```
